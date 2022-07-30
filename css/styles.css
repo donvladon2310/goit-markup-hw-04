@@ -423,8 +423,10 @@ margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #AFB1B8;
-    
+    color: #AFB1B8;  
+}
+.customers-link:last-child{
+    margin-right: 0;
 }
 .customers-link:hover{
     color: var(--accent-color);
@@ -445,7 +447,6 @@ margin-bottom: 50px;
 
 .footer {
 background: #2F303A;
-
 padding-bottom: 60px;
 display: flex;
 align-items: center;
